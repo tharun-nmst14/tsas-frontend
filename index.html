@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSAS - Telangana Students Association for Solidarity</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+
+   
+ 
+
+
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-info text-white p-3">
+    <div class="container d-flex align-items-center justify-content-center gap-3">
+
+        <!-- TSAS Logo -->
+        <img 
+            src="https://res.cloudinary.com/dkfuo3dcx/image/upload/v1765859176/download_2_gtu00p.jpg"
+            alt="TSAS Logo"
+            style="height: 60px; width: auto; border-radius: 6px;"
+        >
+
+        <!-- Title -->
+        <div class="text-center">
+            <h2 class="mb-1">TSAS - Telangana Students Association for Solidarity</h2>
+            <p class="mb-0">Official Student Union Platform</p>
+        </div>
+
+    </div>
+</header>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">TSAS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Notices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Announcements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admin.html">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+
+<!-- TSAS Election Information -->
+<div class="election-info mb-4">
+    🗳️ <strong>TSAS Election Portal:</strong>
+    This official website is created to share <b>Student Union election updates</b>,
+    including <b>notices, announcements, schedules, and important information</b>
+    for RGUKT Telangana students.
+</div>
+
+
+
+
+        <div class="row">
+
+            <!-- LEFT: Announcements -->
+            <div class="col-lg-4 col-md-5 col-12 mb-4">
+                <h3>📢 Announcements</h3>
+                <div id="announcement-container">
+                    <div class="announcement">
+                        <strong>Welcome to TSAS Platform</strong><br>
+                        Stay tuned for latest updates.
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: Notices -->
+            <div class="col-lg-8 col-md-7 col-12">
+                <h3>📝 Notice Board</h3>
+                <div id="notice-container">
+                    <p>Loading notices...</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        TSAS © 2025 | RGUKT Telangana
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Backend Loaders -->
+    <script src="js/loadNotices.js"></script>
+    <script src="js/loadAnnouncements.js"></script>
+
+</body>
+</html>

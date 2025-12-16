@@ -1,0 +1,198 @@
+@media (max-width: 576px) {
+    header img {
+        height: 45px;
+    }
+    header h2 {
+        font-size: 1.1rem;
+    }
+}
+.slide-box {
+    background: #ffffff;
+    border-left: 4px solid #0d6efd;
+    border-radius: 6px;
+    padding: 12px 16px;
+    overflow: hidden;
+    position: relative;
+    height: 48px;
+}
+
+#slide-text {
+    position: absolute;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #333;
+    right: -100%;
+    opacity: 0;
+}
+
+
+/* =====================
+   GLOBAL
+===================== */
+body {
+    background: #e6eef6;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    color: #222;
+}
+
+/* =====================
+   HEADER
+===================== */
+header {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    background-color: #6271b1fb;
+    color: white;
+}
+
+header h2 {
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+header p {
+    opacity: 0.9;
+}
+
+/* =====================
+   NAVBAR
+===================== */
+.navbar {
+    box-shadow: 0 1px 4px rgba(234, 226, 226, 0.15);
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* =====================
+   INFO / ELECTION MESSAGE
+===================== */
+.election-info {
+    background: #ffffff;
+    border-left: 4px solid #0d6efd;
+    padding: 14px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #333;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+}
+
+/* =====================
+   SECTION HEADINGS
+===================== */
+h3 {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* =====================
+   ANNOUNCEMENTS
+===================== */
+.announcement {
+    background: linear-gradient(135deg, #fff7cd, #fff1a8);
+    border-left: 4px solid #ffb300;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.announcement:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* =====================
+   NOTICE BOARD
+===================== */
+.notice-card {
+    border-left: 4px solid #7aa0d9;
+    padding: 14px;
+    margin-bottom: 12px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.notice-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+.notice-card a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.notice-card a:hover {
+    text-decoration: underline;
+}
+
+/* =====================
+   BADGES
+===================== */
+.badge {
+    font-size: 0.7rem;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+}
+
+/* =====================
+   SCROLL AREAS
+===================== */
+#notice-container,
+#announcement-container {
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+#notice-container {
+    max-height: 420px;
+}
+
+#announcement-container {
+    max-height: 300px;
+}
+
+/* Scrollbar styling */
+#notice-container::-webkit-scrollbar,
+#announcement-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+#notice-container::-webkit-scrollbar-thumb,
+#announcement-container::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+    background: #1c1c1c;
+    color: #ccc;
+    padding: 22px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+}
