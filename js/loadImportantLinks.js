@@ -1,5 +1,5 @@
 // IMPORTANT LINKS - LOCAL SETUP
-const backendURL = "http://https://tsas-backend.onrender.com";
+const backendURL = "https://tsas-backend.onrender.com";
 
 document.addEventListener("DOMContentLoaded", () => {
     fetch(`${backendURL}/api/important-links`)
