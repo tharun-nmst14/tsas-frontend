@@ -196,3 +196,67 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+
+/* =====================
+   IMPORTANT LINKS
+===================== */
+
+#important-links-container {
+    max-height: 260px;          /* independent scroll */
+    overflow-y: auto;
+    padding-right: 6px;
+}
+
+/* Optional: scrollbar consistency */
+#important-links-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+#important-links-container::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+}
+
+/* Slight spacing tweak */
+#important-links-container .notice-card {
+    margin-bottom: 10px;
+}
+
+/* =====================
+   IMPORTANT LINKS – POLISH
+===================== */
+
+/* Section heading consistency */
+h3 {
+    letter-spacing: 0.3px;
+}
+
+/* Important Links cards */
+#important-links-container .notice-card {
+    background: #fdfefe;
+    border-left-color: #198754; /* green accent */
+}
+
+/* Hover effect (subtle) */
+#important-links-container .notice-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.12);
+}
+
+/* Link styling */
+#important-links-container a {
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+#important-links-container a:hover {
+    text-decoration: underline;
+}
+
+/* NEW badge smaller & cleaner */
+#important-links-container .badge {
+    font-size: 0.6rem;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
